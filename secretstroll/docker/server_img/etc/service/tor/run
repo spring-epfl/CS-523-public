@@ -1,0 +1,15 @@
+#!/bin/sh
+
+# Ensures Tor's HOME has the right owner.
+chown -R debian-tor:debian-tor /var/lib/tor
+chmod 750 /var/lib/tor
+
+if [ -e /var/lib/tor/hidden_service ]
+then
+    chmod -R u+rwX go-rwx /var/lib/tor/hidden_service
+fi
+
+exec 2>&1
+
+# Specify the configuration file explicitly, otherwise Tor falls back on a safe default and continue running.
+exec chpst -P -u debian-tor:debian-tor env HOME=/var/lib/tor tor -f /etc/tor/torrc
