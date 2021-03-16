@@ -99,7 +99,7 @@ def run(host: str, port: int, participants: List[str]) -> None:
     """
     for participant in participants:
         ttp.add_participant(participant)
-    app.run(host, port)
+    app.run(host, port, threaded=False, processes=1)
 
 
 def main(args: List[str]) -> None:
