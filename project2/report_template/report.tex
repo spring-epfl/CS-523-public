@@ -1,0 +1,70 @@
+\documentclass[10pt,conference,compsocconf]{IEEEtran}
+
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{blindtext, amsmath, comment, subfig, epsfig }
+\usepackage{grffile}
+\usepackage{caption}
+%\usepackage{subcaption}
+\usepackage{algorithmic}
+\usepackage[utf8]{inputenc}
+
+
+\title{CS-523 SecretStroll Report}
+\author{Author 1, Author 2}
+\date{April 2020}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+    Please report your design, implementation details, and findings of the second project in this report. \\
+    You can add references if necessary \cite{article}. \\
+    THE REPORT SHOULD NOT EXCEED 5 PAGES.
+\end{abstract}
+
+\section{Introduction}
+
+Provide a brief introduction about the aim of the project, and your road-map about the design/implementation for each sub-part.
+
+\section{Attribute-based credential}
+Explain how you mapped the system to the attribute based credential. How did you
+use the Fiat-Shamir heuristic?
+
+\subsection{Test}
+How did you test the system?
+You need to test the correct path and at least two failure paths.
+
+\subsection{Evaluation}
+Evaluate your ABC: report communication and computation stats (mean and standard
+deviation). Report statistic on key generation, issuance, signing, and
+verification.
+
+\section{(De)Anonymization of User Trajectories}
+
+\subsection{Privacy Evaluation}
+Provide a privacy analysis of the dataset. You should explicitly state your assumptions, adversary
+models, methods, and findings.
+
+\subsection{Defences}
+Propose a defence that users of the service could deploy to protect their privacy.  You
+should state your assumptions, adversary models, and provide an experimental evaluation of your
+defences using the datasets and the grid specification. You should also discuss the
+privacy-utility trade-offs of your defence.
+
+\section{Cell Fingerprinting via Network Traffic Analysis}
+
+\subsection{Implementation details}
+Provide a description of your implementation here. You should provide details on your data collection methods, feature extraction, and classifier training.
+
+\subsection{Evaluation}
+Provide an evaluation of your classifier here -- the metrics after 10-fold cross validation.
+
+\subsection{Discussion and Countermeasures}
+Comment on your findings here. How well did your classifier perform? What factors could influence its performance? Are there countermeasures against this kind of attack?
+
+\bibliographystyle{IEEEtran}
+\bibliography{bib}
+\end{document}

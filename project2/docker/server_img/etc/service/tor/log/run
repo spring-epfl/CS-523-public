@@ -1,0 +1,15 @@
+#!/bin/sh
+
+LOG_DIR='/var/log/service/tor'
+
+if [ -e $LOG_DIR ]
+then
+    if [ ! -d $LOG_DIR ]
+    then
+        exit 1
+    fi
+else
+    mkdir -p $LOG_DIR
+fi
+
+exec /usr/bin/svlogd -tt $LOG_DIR

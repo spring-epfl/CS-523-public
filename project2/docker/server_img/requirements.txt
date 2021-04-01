@@ -1,0 +1,7 @@
+Flask
+Flask-SQLAlchemy
+jsonpickle
+petrelic
+PySocks
+pytest
+requests
