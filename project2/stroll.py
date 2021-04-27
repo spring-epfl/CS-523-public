@@ -40,7 +40,7 @@ class Server:
         Returns:
             tuple containing:
                 - server's secret key
-                - server's pubic information
+                - server's public information
             You are free to design this as you see fit, but the return types
             should be encoded as bytes.
         """
