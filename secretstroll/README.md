@@ -1,5 +1,12 @@
 # SecretStroll
 
+## Reference to Materials
+
+- [Presentation slides](https://moodle.epfl.ch/pluginfile.php/3186445/mod_resource/content/1/SS%20-%20Intro.pdf)
+
+- [Instructions handout](./handout/handout_project_secretstroll.pdf)
+
+
 ## Introduction
 
 In this project, you will develop a location-based application, SecretStroll,

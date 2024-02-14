@@ -1,6 +1,11 @@
 # Secure Multi-party Computation System
 
-This README is available in two formats: README.md and README.html .
+## Reference to Materials
+
+- [Presentation slides](https://moodle.epfl.ch/pluginfile.php/3175074/mod_resource/content/1/SMC%20Project%20-%20Presentation.pdf)
+
+- [Instructions handout](./handout/handout_project_smcompiler.pdf)
+
 
 ## Introduction
 
