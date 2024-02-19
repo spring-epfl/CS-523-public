@@ -9,7 +9,7 @@ This README contains instructions that are common for both projects. For project
 
 ### Project Team Registration
 
-Please register your 3-person team using [this form](https://docs.google.com/forms/d/e/1FAIpQLSe4_8VOW6_IrhMycA5gxNg76BBnnwO9K5WNArKP225U_SXyWQ/viewform?usp=sf_link) by March 1st. 
+Please register your 3-person team using [this form](https://forms.gle/G83QYu67Eb1zxbYk9) by March 1st. 
 The team is for both projects. 
 
 ### TA Slot Booking
