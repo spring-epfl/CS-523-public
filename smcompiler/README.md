@@ -1,16 +1,9 @@
 # Secure Multi-party Computation System
 
-## Reference to Materials
-
-- [Presentation slides](https://moodle.epfl.ch/pluginfile.php/3175074/mod_resource/content/1/SMC%20Project%20-%20Presentation.pdf)
-
-- [Instructions handout](./handout/handout_project_smcompiler.pdf)
-
-
 ## Introduction
 
 In this project, you will develop a secure multi-party computation system in
-Python 3. We provide you this code skeleton to help with the development.
+Python 3. We provide you an [instructions handout](./handout/handout_project_smcompiler.pdf) and this code skeleton to help with the development.
 
 We also provide a virtual machine (VM) to facilitate the setup and configuration
 of the system and reduce potential networking problems which might happen while

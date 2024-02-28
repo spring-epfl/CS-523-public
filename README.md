@@ -29,7 +29,7 @@ Using a virtual machine is optional for this project. However, we provide two VM
 
 ### Submission
 
-**SecretStroll submission deadline:** 19th April, 2024 at 23:59. 
+**SecretStroll submission deadline:** 25th April, 2024 at 23:59. 
 
 **SMCompiler submission deadline:** 31st May, 2024 at 23:59. 
 

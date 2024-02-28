@@ -1,17 +1,11 @@
 # SecretStroll
 
-## Reference to Materials
-
-- [Presentation slides](https://moodle.epfl.ch/pluginfile.php/3186445/mod_resource/content/1/SS%20-%20Intro.pdf)
-
-- [Instructions handout](./handout/handout_project_secretstroll.pdf)
-
 
 ## Introduction
 
 In this project, you will develop a location-based application, SecretStroll,
-that enables users to search for nearby points of interest (POI). We provide you
-with a skeleton to help with the development.
+that enables users to search for nearby points of interest (POI). 
+We provide you with an [instructions handout](./handout/handout_project_secretstroll.pdf) and a skeleton to help with the development.
 
 **Virtualization.** We provide a virtual machine (VM) to facilitate the setup
 and configuration of the SecretStroll and reduce potential networking problems
