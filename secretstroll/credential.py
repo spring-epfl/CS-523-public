@@ -62,7 +62,6 @@ def generate_key(
     g = G1.generator()
     g_tilde = G2.generator()
 
-
     # Compute X, X_tilde, Y1, ..., YL, Y1_tilde, ..., YL_tilde
     X = g ** x
     X_tilde = g_tilde ** x
