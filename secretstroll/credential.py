@@ -19,6 +19,8 @@ from typing import Any, List, Tuple
 
 from serialization import jsonpickle
 
+from petrelic.multiplicative.pairing import G1, G2, GT, Bn
+
 
 # Type hint aliases
 # Feel free to change them as you see fit.
@@ -43,7 +45,37 @@ def generate_key(
         attributes: List[Attribute]
     ) -> Tuple[SecretKey, PublicKey]:
     """ Generate signer key pair """
-    raise NotImplementedError()
+
+    # Order p of G1, G2 and GT.
+    p = G1.order()
+
+    # Length L of the attribute vector.
+    L = len(attributes)
+
+    # Generate a random x from Zp.
+    x = Bn(p).random()
+
+    # Generate random values y1, y2, ..., yL from Zp.
+    y_values = [Bn(p).random() for _ in range(L)]
+
+    # Define generators g and g_tilde.
+    g = G1.generator()
+    g_tilde = G2.generator()
+
+
+    # Compute X, X_tilde, Y1, ..., YL, Y1_tilde, ..., YL_tilde
+    X = g ** x
+    X_tilde = g_tilde ** x
+    Y_values = [g ** y for y in y_values]
+    Y_tilde_values = [g_tilde ** y for y in y_values]
+
+    # Public Key (g, Y1, ..., YL, g_tilde, X_tilde, Y1_tilde, ..., YL_tilde)
+    public_key = (g, Y_values, g_tilde, X_tilde, Y_tilde_values)
+
+    # Secret Key (x, X, y1, y2, ..., yL)
+    secret_key= (x, X, y_values)
+
+    return secret_key, public_key
 
 
 def sign(
