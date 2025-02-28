@@ -9,7 +9,7 @@ This README contains instructions that are common for both projects. For project
 
 ### Project Team Registration
 
-Please register your 3-person team using [this form](https://forms.gle/G83QYu67Eb1zxbYk9) by March 1st. 
+Please register your 3-person team using [this form](https://forms.gle/3LANqQrQCf2dTLef7) by Feb 28th. 
 The team is for both projects. 
 
 ### TA Slot Booking
@@ -29,9 +29,9 @@ Using a virtual machine is optional for this project. However, we provide two VM
 
 ### Submission
 
-**SecretStroll submission deadline:** 25th April, 2024 at 23:59. 
+**SMCompiler submission deadline:** 28th March, 2025 at 23:59. 
 
-**SMCompiler submission deadline:** 31st May, 2024 at 23:59. 
+**SecretStroll submission deadline:** 30th May, 2025 at 23:59. 
 
 **Only 1 member per team** needs to upload their project submissions via moodle. 
 
