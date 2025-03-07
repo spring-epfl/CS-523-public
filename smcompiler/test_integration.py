@@ -260,7 +260,7 @@ def test_suite9():
 
 def test_suite10():
     """
-    f(a, b) = a * b * (15 + 15 * 3)
+    f(a, b) = a + b * (15 + 15 * 3)
     """
     alice_secret = Secret()
     bob_secret = Secret()
