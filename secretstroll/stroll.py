@@ -62,6 +62,7 @@ class Server:
 
         Args:
             server_sk: the server's secret key (serialized)
+            server_pk: the server's public key (serialized)
             issuance_request: The issuance request (serialized)
             username: username
             subscriptions: attributes
